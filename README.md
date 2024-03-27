@@ -18,23 +18,34 @@ Você precisará de um ambiente de desenvolvimento JavaScript, como o Node.js, i
 ### Instalação
 
 1.  Clone este repositório em sua máquina local usando o seguinte comando:
-    `git clone https://github.com/flavicasteo/rdchallenge.git` 
+
+    ```bash
+    git clone https://github.com/flavicasteo/rdchallenge.git
     
-2.  Navegue até o diretório do projeto:
-    `cd rdchallenge` 
-    
-3.  Instale as dependências usando Yarn ou NPM:
-    `yarn install` 
+3.  Navegue até o diretório do projeto:
+    ```bash
+    cd rdchallenge
+    ```
+5.  Instale as dependências usando Yarn ou NPM:
+    ```bash
+    yarn install
+    ```
     ou
-    `npm install` 
+    ```bash
+    npm install
+    ```
     
 
 ### Executando os Testes
 
 Para executar os testes automatizados, utilize o seguinte comando:
-`yarn test` 
+```bash
+yarn test
+```
 ou
-`npm test` 
+```bash
+npm test
+``` 
 
 Isso executará uma série de testes automatizados que verificam a funcionalidade da função `customerSuccessBalancing` em diferentes cenários.
 ##  Tecnologias usadas
